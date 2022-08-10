@@ -97,13 +97,6 @@ class TestlangParser:
 
         return tree
 
-class Token:
-    def __init__(self, name):
-        self.name = name
-
-    def __repr__(self):
-        return f'Token({self.name})'
-
 if __name__ == '__main__':
     from testlang import lexer
     from pprint import pprint
